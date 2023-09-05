@@ -18,4 +18,5 @@ function logText(e){
 }
 
 divs.forEach(function(div){div.addEventListener('click', logText, {capture: true});});
+console.log("blah");
 
